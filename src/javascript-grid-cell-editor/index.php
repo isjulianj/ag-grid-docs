@@ -340,7 +340,7 @@ interface GetCellEditorInstancesParams {
 }</snippet>
 
 <p>
-    If you are doing normal editing, then only on cell is editable at any given time. For this reason
+    If you are doing normal editing, then only one cell is editable at any given time. For this reason
     if you call <code>getCellEditorInstances()</code> with no params, it will return back the editing
     cell's editor if a cell is editing, or an empty list if no cell is editing.
 </p>
